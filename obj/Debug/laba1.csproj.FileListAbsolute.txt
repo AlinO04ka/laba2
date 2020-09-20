@@ -5,3 +5,10 @@ C:\Users\Lenovo\Desktop\laba1\bin\Debug\laba1.exe
 C:\Users\Lenovo\Desktop\laba1\bin\Debug\laba1.pdb
 C:\Users\Lenovo\Desktop\laba1\obj\Debug\laba1.exe
 C:\Users\Lenovo\Desktop\laba1\obj\Debug\laba1.pdb
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\bin\Debug\laba1.exe.config
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\bin\Debug\laba1.exe
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\bin\Debug\laba1.pdb
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\obj\Debug\laba1.csprojAssemblyReference.cache
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\obj\Debug\laba1.csproj.CoreCompileInputs.cache
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\obj\Debug\laba1.exe
+D:\ФИТ\2ой курс\ООП\Лабораторные\lab2\obj\Debug\laba1.pdb

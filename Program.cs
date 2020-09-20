@@ -245,7 +245,6 @@
 //                for (int y = 0; y < styp[x].Length; y++)
 //                    styp[x][y] = Convert.ToInt32(Console.ReadLine());
 
-
 //            for (int x = 0; x < styp.Length; x++)
 //            {
 //                for (int y = 0; y < styp[x].Length; y++)
@@ -282,7 +281,7 @@
 //            Console.WriteLine("Kortezhi\n");
 
 //            (int, string, char, string, ulong) kort = (18, "Alina", 'm', "Khartanovich", 6584798);
-//            Console.WriteLine("Первый кортеж: {0}",            kort);
+//            Console.WriteLine("Первый кортеж: {0}", kort);
 //            Console.WriteLine($"Второй элемент кортежа: {kort.Item2}, четвертый элемент кортежа: {kort.Item4}");
 
 
@@ -290,11 +289,11 @@
 //            string second = kort.Item2;
 //            char third = kort.Item3;
 //            string fourth = kort.Item4;
-//            ulong fifth= kort.Item5;
+//            ulong fifth = kort.Item5;
 
 
 
-//            var kort2 = (18, "Alina", 'g', "Khartanovich", (ulong)6584798);
+//            (int, string, char, string, ulong) kort2 = (18, "Alina", 'g', "Khartanovich", 6584798);
 //            Console.WriteLine("Второй кортеж: {0}", kort2);
 //            if (kort.CompareTo(kort2) == 0)
 //                Console.WriteLine("Кортежи равны");
@@ -330,70 +329,69 @@
 //                int sum = mas.Sum();
 //                char name = str1[0];
 //                return (max, min, sum, name);
-
 //            }
-//            var Array1 = new[] { 1, 18, 82, 18, 100,  9, 4022, 14, 5, 13 };
-//            string Str1 = "Alina Khartanovich";
-//            Console.WriteLine(LocalFunction(Array1, Str1));
+//            var arr = new[] { 1, 18, 82, 18, 100, 9, 4022, 14, 5, 13 };
+//            string str = "Alina Khartanovich";
+//            Console.WriteLine(LocalFunction(arr, str));
 //        }
 //    }
 //}
 
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace laba1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Checked/unchecked\n");
+//namespace laba1
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Checked/unchecked\n");
 
-            int a = Int32.MaxValue;
-            int b = 99999999;
-            Console.WriteLine(Check(a, b));
-            Console.WriteLine(Uncheck(a, b));
+//            int a = Int32.MaxValue;
+//            int b = 99999999;
+//            Console.WriteLine(Check(a, b));
+//            Console.WriteLine(Uncheck(a, b));
 
-            int Check(int x, int y)
-            {
-                try
-                {
-                    checked
-                    {
-                        int result = x + y;
-                        return result;
-                    }
-                }
-                catch (OverflowException mess)
-                {
-                    Console.WriteLine(mess.Message);
-                }
-                return 0;
-            }
+//            int Check(int x, int y)
+//            {
+//                try
+//                {
+//                    checked
+//                    {
+//                        int result = x + y;
+//                        return result;
+//                    }
+//                }
+//                catch (OverflowException mess)
+//                {
+//                    Console.WriteLine(mess.Message);
+//                }
+//                return 0;
+//            }
 
-            int Uncheck(int x, int y)
-            {
-                try
-                {
-                    unchecked
-                    {
-                        int result = x + y;
-                        return result;
-                    }
-                }
-                catch (OverflowException mess)
-                {
-                    Console.WriteLine(mess.Message);
-                }
-                return 0;
-            }
+//            int Uncheck(int x, int y)
+//            {
+//                try
+//                {
+//                    unchecked
+//                    {
+//                        int result = x + y;
+//                        return result;
+//                    }
+//                }
+//                catch (OverflowException mess)
+//                {
+//                    Console.WriteLine(mess.Message);
+//                }
+//                return 0;
+//            }
 
 
-        }
-    }
-}
+//        }
+//    }
+//}
